@@ -1,0 +1,5 @@
+h2.  RailsSpace Project Files
+
+h3.  Follower Notification:
+
+ These files are the files I am creating while working through the RailsSpace Manual.  The book can be found at "RailsSpace.com":http://www.railsspace.com/
