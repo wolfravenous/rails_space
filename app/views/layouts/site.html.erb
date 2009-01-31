@@ -2,9 +2,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html> 
 	<head> 
+		<%= stylesheet_link_tag "site" %> 
 		<title><%= @title %></title> 
 	</head> 
 	<body>
-		<%= @content_for_layout %> 
+		<%= link_to_unless_current "Home", 				:action => "index" %> | 
+		<%= link_to_unless_current "About Us", 		:action => "about" %> | 
+		<%= link_to_unless_current "Help", 				:action => "help" %> 
+		<%= @content_for_layout %>
 	</body> 
 </html> 
