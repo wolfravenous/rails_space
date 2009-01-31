@@ -6,7 +6,7 @@ describe "/site/help" do
   end
   
   #Delete this example and add some real ones or delete this file
-  it "should tell you where to find the file" do
-    response.should have_tag('p', %r[Find me in app/views/site/help])
+  it "should tell you the contents of the help view" do
+    response.should have_tag('p', %r[This page will contain instructions and a frequently asked questions list.])
   end
 end

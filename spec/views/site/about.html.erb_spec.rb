@@ -6,7 +6,7 @@ describe "/site/about" do
   end
   
   #Delete this example and add some real ones or delete this file
-  it "should tell you where to find the file" do
-    response.should have_tag('p', %r[Find me in app/views/site/about])
+  it "should tell you about RailsSpace" do
+    response.should have_tag('p', %r[RailsSpace is a social networking website for Ruby on Rails enthusiasts.])
   end
 end

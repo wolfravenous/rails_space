@@ -6,7 +6,7 @@ describe "/site/index" do
   end
   
   #Delete this example and add some real ones or delete this file
-  it "should tell you where to find the file" do
-    response.should have_tag('p', %r[Find me in app/views/site/index])
+  it "should tell you this is going to be the best site ever!" do
+    response.should have_tag('p', %r[This is going to be the best site ever!])
   end
 end
