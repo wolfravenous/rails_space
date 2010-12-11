@@ -9,4 +9,9 @@ describe "/site/index" do
   it "should tell you this is going to be the best site ever!" do
     response.should have_tag('p', %r[This is going to be the best site ever!])
   end
+  
+  it "should tell you this is going to be the best site ever!" do
+    response.should have_tag('h1', %r[Welcome!])
+  end
+  
 end
