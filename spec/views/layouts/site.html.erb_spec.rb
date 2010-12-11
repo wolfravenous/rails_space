@@ -6,7 +6,7 @@ describe "layouts/site" do
   end
   
   #Delete this example and add some real ones or delete this file
-  it "should tell you the title" do
+  it "should have a title" do
     response.should have_tag('title')
   end  
   
