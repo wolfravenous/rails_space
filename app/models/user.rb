@@ -21,7 +21,7 @@ class User < ActiveRecord::Base
                       :message => "must be a valid email address"
 
   def validate 
-    errors.add(:email, "must be valid.") unless email.include? ("@") 
+    errors.add(:email, "must be valid.") unless email.include?("@") 
     if screen_name.include?(" ") 
       errors.add(:screen_name, "cannot include spaces.") 
     end 
